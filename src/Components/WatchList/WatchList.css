@@ -1,0 +1,91 @@
+.watchList-parent{
+    background-color: #00050d;
+    height: 100vh;
+}
+
+.WatchList-header{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    padding: 24px 0px;
+    padding-left: 72px;
+}
+.WatchList-btn-container{
+    display:flex;
+    margin: 0px 72px;
+    justify-content:space-between;
+    padding: 20px 0px;
+}
+.WatchList-filter-btn{
+    font-size: 21px;
+    background-color: #33373d;
+    color: #fff;
+    font-weight:600;
+    min-height: 62px;
+    margin-right: 12px;
+    padding: 8px 21px;
+    border: none;
+    /* border-top-right-radius: 8px;
+    border-top-left-radius: 8px; */
+    border-radius: 8px;
+}
+.recent-btn{
+border-radius:initial;
+border-top-right-radius: 8px;
+border-top-left-radius: 8px;
+}
+.recent-btn-content{
+    position: absolute;
+    display: none;
+    left: 100px;
+}
+.recent-btn-option{
+    font-size: 21px;
+    background-color: #33373d;
+    color: #fff;
+    font-weight:600;
+    min-height: 62px;
+    margin-right: 12px;
+    padding: 8px 21px;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+.last-option{
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.WatchList-filter-btn:hover,.recent-btn-option:hover{
+    background-color:#fff;
+    color: #00050d;
+}
+
+.recent-btn{
+     display: flex;
+    align-items: center;
+}
+.down-arrow-icon{
+    font-size: 26px;
+    padding-left: 8px;
+    transition: 0.3s ease-in-out;
+    /* padding: 0px 5px; */
+}
+.rotate-arrow {
+    transform: rotate(180deg); 
+    padding-left: 8px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .watchList-cards{
+    /* padding:20px; */
+    padding: 0px 60px 350px 0px;
+    gap: 1px;
+    width:inherit;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #00050d;
+    /* border: 2px solid rebeccapurple; */
+  }
+ 
+

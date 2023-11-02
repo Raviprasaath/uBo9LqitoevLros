@@ -1,0 +1,39 @@
+.Prime-ben{
+    background-color:#00050d;
+}
+.Prime-Shipping-benefits-header,
+.Amazon-pay-header,
+.prime-music-header,
+.prime-reading-header,
+.prime-video-header{
+    margin-left: 72px;
+    color: #fff;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.Prime-Shipping-benefits-container,
+.Amazon-pay-container,
+.prime-music-container,
+.prime-reading-container
+{
+    display: flex;
+    gap: 25px;
+    padding: 20px 72px;
+    padding-bottom:60px;
+}
+.prime-video-container{
+    display: flex;
+    gap: 25px;
+    padding: 20px 72px;
+    padding-bottom:260px;
+}
+.prime-benefits-card{
+    height: 172px;
+    width: 288px;
+}
+img{
+    height: inherit;
+    width: inherit;
+    border-radius: 8px;
+}

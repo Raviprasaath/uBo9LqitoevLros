@@ -1,0 +1,304 @@
+@import url('https://fonts.cdnfonts.com/css/amazon-ember');
+
+/* .container-1 img{
+    left: 0; */
+   /* width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+/* } */ */
+.Signoutposter-1{
+    width: 100%;
+    top: 5px;
+    position: relative;
+}
+.Signoutposter-1 img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: unset!important;
+}
+.Signoutposter-2{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+.Signoutposter-2 img{
+    left: 0;
+    height: 700px;
+    width: 100%;
+    border-radius: unset!important;
+
+    /* background-size: cover; */
+    /* object-fit: contain; */
+}
+.Signoutposter-3 img,.Signoutposter-4 img{
+    border-radius: unset!important;
+}
+.Ad-1{
+    position:absolute;
+    left: 5%;
+    width: 40%;
+    /* letter-spacing: 2px; */
+    margin-top: -40%;
+    color:#fff;
+    background-color: transparent;
+    border-radius: unset!important;
+
+} 
+ .Ad-1 p,.Ad-2{
+    /* position:absolute; */
+    font-size: 21px;
+    background-color: transparent;
+    margin:20px 0px ;
+
+}
+.heading-1 ,.heading-2{
+    /* position:absolute; */
+    letter-spacing: 3px;
+    line-height:3.1rem;
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+.heading-1 h1,.heading-2 h1{
+    background-color: transparent;
+    font-size: 38px;
+}
+ .Ad-1 button,.Ad-2 button{
+    /* position:absolute; */
+    padding: 14px 20px;
+    width: 280px;
+    /* height: 60px; */
+    background-color: #0f79af;
+    color: #fff;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    margin-top: 10px;
+    border-style: solid;
+    border: none;
+    border-radius: 3px;
+    cursor:pointer;
+    margin:10px 0px ;
+} 
+button:hover,.Ad-2 button:hover{
+    background-color: #00a0d6;
+    transition: all .2s ease-out;
+}
+.getStarted:hover{
+    background-color: #00a0d6;
+    transition: all .2s ease-out;
+}
+/* Ad 2 */
+.Ad-2{
+    position:absolute;
+    right:3%;
+    width: 45%;
+    letter-spacing:2px;
+    margin-top:-45%;
+    color:#fff;
+    background-color:0.2 #333;
+} 
+
+ .Ad-2 p{
+    padding-left:3px ;
+    /* background-color: #0f171e; */
+    /* background: ; */
+ }
+/*.heading-2{
+    letter-spacing: 2px;
+    background-color: transparent;
+}
+.heading-2 h1{
+    background-color: transparent;
+}
+.Ad-2 button{
+    padding: 14px 20px;
+    width: 280px;
+    background-color: #0f79af;
+    color: #fff;
+    font-weight: 400;
+    height: 60px;
+    font-size: 27px;
+    line-height: 20px;
+    margin-top: 24px;
+    border-style: solid;
+    border-color:#0f79af;
+    border-radius: 3px;
+} */
+
+/* grid cards */
+.secondDiv{
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white!important;
+    height: 600px;
+    padding:30px 60px ;  
+}
+.secondDiv-content{
+    display: block;
+    /* margin-top:%; */
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    background-color:white!important;
+    width:50%;
+    height: 100%;
+    /* border: 2px solid black; */
+}
+.yourfavouritediv{
+    font-size:38px;
+    font-weight: 100;
+    margin-bottom: 30px;
+    color: #000000!important;
+}
+.firstptag{
+    font-size: 21px;
+    /* font-weight:lighter; */
+    color: black!important  ;
+
+    background-color:white!important;
+}
+
+.gridcontainer{
+    right: 30px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    /* border: 2px solid black; */
+}
+.grid-item{
+    background-color: white;
+}
+.grid-item img{
+    width: 180px;
+    object-fit: cover;
+    margin: 2px;
+}
+.grid-item img:hover{
+    box-shadow: 0px 1px 6px 4px #333;
+    z-index: 10;
+}
+/* Ad-3 */
+.Signoutposter-3{
+    top: 5px;
+    position: relative;
+}
+.Signoutposter-3{
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.Signoutposter-3 img{
+    width: 100%;
+    height: 800px;
+}
+.Ad-3{
+    top:20%;
+    position:absolute;
+    right: 9%;
+    width: 40%;
+    letter-spacing: 2px;
+    /* margin-top: -44%; */
+    color:#fff;
+    background-color: transparent;
+} 
+ .Ad-3 p{
+    /* position:absolute; */
+    font-size: 19px;
+    background-color: transparent;
+    padding-bottom: 30px;
+}
+.heading-3{
+    /* position:absolute; */
+    display: flex;
+    padding: 30px 0px;
+     width:100%;
+    letter-spacing: 2px;
+     font-size: 25px;
+    line-height:5.5 rem;
+    background-color: transparent;
+}
+.heading-3 h2{
+    background-color: transparent;
+}
+ .Ad-3 button{
+    /* position:absolute; */
+    padding: 14px 20px;
+    width: 280px;
+    background-color: #0f79af;
+    color: #fff;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    margin-top: 10px;
+    border-style: solid;
+    border: none;
+    border-radius: 3px;
+} 
+/* Ad-4 */
+.Signoutposter-4{
+    width: 100%;
+    top: 5px;
+    position: relative;
+}
+.Signoutposter-4{
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+.Signoutposter-4 img{
+    width: 100%;
+    height: 800px;
+}
+.Ad-4{
+    top:20%;
+    position:absolute;
+    left: 9%;
+    width: 40%;
+    letter-spacing: 2px;
+    /* margin-top: -44%; */
+    color:#fff;
+    background-color: transparent;
+} 
+ .Ad-4 p{
+    /* position:absolute; */
+    font-size: 19px;
+    background-color: transparent;
+    padding-bottom: 30px;
+}
+.heading-4{
+    /* position:absolute; */
+    display: flex;
+    padding: 30px 0px;
+     width:100%;
+    letter-spacing: 2px;
+     font-size: 25px;
+    line-height:5.5 rem;
+    background-color: transparent;
+}
+.heading-4 h1{
+    background-color: transparent;
+}
+ .Ad-4 button{
+    /* position:absolute; */
+    padding: 14px 20px;
+    width: 280px;
+    background-color: #0f79af;
+    color: #fff;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    margin-top: 10px;
+    border-style: solid;
+    border: none;
+    border-radius: 3px;
+} 

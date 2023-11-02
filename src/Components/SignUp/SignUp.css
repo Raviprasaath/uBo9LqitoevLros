@@ -1,0 +1,235 @@
+*{
+    /* background-color: white; */
+    font-family: 'Roboto', sans-serif;
+    /* padding: 14px 18px!important; */
+}
+.primevideoIcon{
+    margin-top: 14px;
+    width: 100%;
+    margin-bottom: 18px;
+    height: 65px;
+    text-align: center;
+}
+.primevideoIcon img{
+    height: 87px;
+    padding: 14px;
+}
+section{
+    position: relative;
+    width: 100%;
+    top: 60px;
+    min-height:100vh;   
+}
+/* .error-box{
+    display:grid;
+    place-items: center;
+}
+.error-icon{
+   margin-top: 0;
+    color: #c40000;
+    height:40px;
+    width: 53px;
+}
+.error-alert-container{
+    width: 350px;
+    display: flex;
+    gap: 10px;
+    border-radius:8px;
+    box-shadow: 0 0 0 4px #fcf4f4 inset;
+    border: 1px #ddd solid;
+    border-color: #c40000;
+    padding: 18px 14px;
+}
+.problem-text{
+    font-size:18px;
+    margin-bottom:10px;
+    color: #c40000;
+}
+.error-msg{
+    padding:6px 6px;
+}
+.error-text{
+    font-size: 15px;
+    line-height: 19px;
+} */
+.sign_container{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign_header img{
+    width: 150px;
+    margin-top: -40px;
+    cursor: pointer;
+}
+
+.sign_form{
+    border: 1px solid #c9c9c9;
+    padding: 14px 18px;
+    margin-top: -50px;
+    border-radius: 5px;
+    width: 350px;
+    height: 550px;
+}
+
+.sign_form h1{
+    color: #111;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 1;
+    padding-bottom: 4px;
+    margin-bottom: 17px;
+}
+.form_data{
+    margin-bottom: 20px!important;
+}
+.form_data_label{
+    font-size: small;
+    font-weight: 600;
+    padding-left: 2px;
+    padding-bottom: 2px;
+}
+
+.form_data input{
+    width: 100%;
+    height: 30px;
+    padding: 3px 7px;
+    border-radius: 3px;
+    outline: none;
+    border:1px solid #a6a6a6;
+    /* margin-bottom: 20px; */
+    margin-top: 1px;
+    font-size: 17px;
+}
+
+.sign_form .signin_btn{
+    margin-top: 7px;
+    margin-bottom: 23px;
+    width: 100%;
+    background:0 0;
+    cursor: pointer;
+    height: 30px;
+    outline: none;
+    border-radius: 8px;
+    color: #111;
+    background: #ffd814;
+    border-color: #fcd200;
+    border: none;
+}
+.signin_btn{
+    margin-top: 0;
+    font-size: 13px;
+    font-weight: 500;
+}
+.signin_btn:hover{
+    background: #F7CA00;
+    border-color: #F2C200;
+}
+.sign_form input:focus{
+    background-color: #F7FEFF;
+    border-color: #007185;
+    box-shadow: 0 0 0 3px #c8f3fa, 0 1px 2px rgba(15,17,17,.15) inset;
+}
+.signin_btn:focus{
+    outline: 0;
+    /* box-shadow: 0 0 0 3px #c8f3fa, inset 0 0 0 2px #fff; */
+    box-shadow: 0 0 0 3px #c8f3fa, 0 1px 2px rgba(15,17,17,.15) inset;
+    border-color: #111;
+
+}
+
+.sign_form .signin_info{
+    margin-top: 23px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.password-info{
+    margin-top: 12px;
+    font-size: 12px;
+}
+
+/* for login page */
+.create_accountinfo p{
+    font-size: 12px;
+    text-align: center;
+    color: #767676;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.create_accountinfo button{
+    background: linear-gradient(to bottom,#f7f8fa,#e7e9ec);
+    height: 29px;
+    width: 300px;
+    border-radius: 3px;
+    border: 1px solid #adb1b8;
+    outline: none;
+    margin-top: 15px;
+}
+
+.create_accountinfo a{
+    text-decoration: none;
+    color: #111;
+    padding: 10px 35px;
+    letter-spacing: .5px;
+}
+.terms{
+    font-size: 12px;
+}
+.terms a,.signin_info a, .footer-links a{
+    color: #0066c0;
+    font-size: 12px;
+}
+ .terms a:hover,.signin_info a:hover,.footer-links a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #c45500;
+}
+
+/* background: linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3px,transparent);
+    z-index: 0; */
+.signin_container{
+    display: block;
+    background: linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3px,transparent);
+    z-index: 0;
+    width: 100%;
+    height: 44px;
+}
+.signin_info{
+    display: flex;
+    height: 44px;
+    margin-bottom: -18px;
+    border: linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3px,transparent);
+    z-index: 0;
+    zoom: 1;
+    width: 100%;
+    top: 44px;
+    gap: 10px;
+}
+.signin_info p{
+    font-size: 12px;
+    padding-top: 30px;
+    font-weight: 400;
+}
+.signin_info a{
+    padding-top: 30px;
+    font-weight: 400;
+    font-size: 12px;
+}
+.footer{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #555!important;
+}
+.footer-links{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+

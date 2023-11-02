@@ -1,0 +1,47 @@
+
+.footer-content{
+  display: block;
+  }
+  .prime-logo{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #222;
+  }
+  .prime-logo img{
+      padding-top: 20px;
+      width: 80px;
+      height: 40px;
+      background-color: #222;
+      max-width: 100%;
+  }
+  .footer-text{
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      background-color: #222;
+  }
+  .footer-text span{
+      text-decoration: none;
+      color: #0f79af;
+      font-size: 15px;
+      line-height: 19px;
+      font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif;
+      margin-right: 10px;
+      background-color: #222;
+    }
+    .license{
+       display: flex;
+      justify-content:center;
+      background-color: #222;
+      align-items: center;
+      padding-bottom: 40px;
+    }
+    .license p{
+      text-align: center;
+      background-color: #222;
+      color: #949494;
+      font-size: 15px;
+      line-height: 1.6 rem;
+    }
+    

@@ -1,0 +1,62 @@
+.footer-container{
+  display: block;
+  /* margin-top: 200px; */
+  /* width: 100%; */
+  /* bottom: 0; */
+  /* padding-bottom:50px ; */
+  /* border: 2px solid red; */
+  background-color: #00050d;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+    /* background-color: #222; */
+    align-items: center;
+}
+.logo-container img{
+    /* color:white; */
+    padding-top: 20px;
+    /* width:; */
+    height: 55px;
+    /* background-color: #222; */
+    max-width: 100%;
+    background-color: tr;
+}
+.footer-text-container{
+    display: flex;
+    justify-content:center;
+    padding-bottom: 20px;
+}
+#footer-content{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+    /* background-color: #222; */
+}
+#footer-content span{
+    text-decoration: none;
+    color: #0f79af;
+    font-size: 13px;
+    line-height: 19px;
+    font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif;
+    margin-right: 10px;
+    /* background-color: #222; */
+  }
+  .license-container{
+     display: flex;
+     margin-top: 8px;
+    /* background-color: #222; */
+    /* align-items: center; */
+    margin-left: 10px;
+  }
+  .license-container p{
+    text-align: center;
+    /* background-color: #222; */
+    color: #949494;
+    font-size: 13px;
+    line-height: 1.6 rem;
+    gap: 5px;
+  }
+  

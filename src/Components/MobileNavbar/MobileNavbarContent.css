@@ -1,0 +1,99 @@
+.menu-content{
+    display: none;
+}
+
+
+@media screen and (max-width:879px) {
+    .menu-content{
+        display: block;
+        position:absolute;
+        width:100%;
+        left: 0;
+        background-color: #191e25;
+        top: 50px;
+        z-index: 12;
+        /* height:max-content; */
+        color: #aaa;
+        background-color:red;
+        padding-bottom:300px;
+        /* height: 100vh; */
+    }
+    .home-content,.store-content,.livetv-content,.stuff-content{
+        /* border:2px solid white; */
+        display: flex;
+        align-items: center;
+        justify-content:left;
+        font-size: 15px;
+        font-weight:600;
+        padding-bottom: 20px;
+        padding:15px 30px;
+    }
+    .home-icon,.store-icon,.menu-icon{
+        color:#aaa;
+        height: 20px;
+        width:25px;
+        gap: 20px;
+    }
+    .category-icon{
+        color:#aaa;
+        height:20px;
+        width:25px;
+    }
+    .stuff-content{
+        padding:15px 25px;
+    }
+    .stuff-icon{
+        height:25px;
+        width:35px;
+    }
+    button{
+        border: none;
+    }
+    span{
+        font-size: 16px;
+        color:#aaa;
+        margin-left:10px;
+    }
+      /*categories container */
+        
+         .categories-content-header{
+            padding: 15px 28px;
+            display: flex;
+            align-content: center;
+            font-size: 15px;
+            font-weight:600;
+            background-color:#191e25;
+        }
+        button{
+            border: none;
+        }
+    
+        .acc-head{
+            display: flex;
+            margin-left:15px;
+            font-size: 14px;
+            color: #aaa;
+            padding:10px 10px 20px 10px;
+        }
+        .acc-sub-head{ 
+            display: flex;
+            margin-left:50px;
+            font-size: 14px;
+            color: #aaa;
+            padding:10px 10px 20px 10px;
+        }
+        .accordion-body{
+            display: block;
+        }
+        
+        .accordion-body p{
+            font-size: 15px;
+            font-weight:600;
+            padding: 10px 120px 10px 70px;
+            background-color: #33373d;
+        }
+        .accordion-body p:hover{
+            background-color: #fff;
+            color:#191e25;
+        }  
+}

@@ -1,0 +1,29 @@
+
+.filter-btn-container{
+    display: flex;
+    width:max-content;
+    gap: 30px;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+.value-header{
+    margin-top: 0;
+    padding-top: 20px;
+}
+.filter-btn{
+    width: max-content;
+    color: #aaa;
+    background-color: transparent;
+    border-radius: 10px;
+    min-height: auto;
+    border: none;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 10px;
+}
+.filter-btn:hover{
+    background-color: #33373d;
+    color: #fff;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}

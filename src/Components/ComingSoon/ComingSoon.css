@@ -1,0 +1,171 @@
+*{
+    background-color: unset;
+    /* background-color: #00050d; */
+}
+.comingsoonhome{
+    margin-top: 30px;
+    position: relative;
+    /* border: 3px solid greenyellow; */
+    display:block;
+    top:50%;
+    left: 50%;
+    border-radius: 10px;
+    transform: translate(-50%,2%);
+    width: 80%;
+    /* box-shadow: 3px 2px 10px 10px #aaa; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+    .comingsooncontainer{
+        /* margin-top: 10px; */
+        display: flex;
+        padding-top: 10px;
+        top: 50%;
+        /* margin:20px; */
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        /* width: 80%; */
+        /* border: 3px solid black; */
+        /* filter: blur(4px); */
+    /* animation: myAnim 2s ease 0s 1 normal forwards; */
+    }
+    .tag-container{
+        display: block;
+        /* border: 2px solid grey; */
+        margin: 30px 0px;
+    }
+    
+    .tag{
+        background-color: unset!important;
+        /* border: 3px solid red; */
+        margin: 40px 20px;
+        display: block;
+        text-align: center;
+    }
+    .tag h2{
+        background-color: #fff;
+        color: #000;
+    }
+    .eyesloader{
+        padding-top: 20px;
+        display: flex;
+        justify-content:center;
+    }
+    .eyes{
+        margin-left: 30px;
+    }
+  /* loader */
+  .loader {
+    position: relative;
+    width: 130px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(#0277bd, #0277bd),
+    linear-gradient(#29b6f6, #4fc3f7), linear-gradient(#29b6f6, #4fc3f7);
+    background-size: 80px 70px, 30px 50px, 30px 30px;
+    background-position: 0 0, 80px 20px, 100px 40px;
+    /* transform: translate(-50%,-50%); */
+  }
+  .loader:after {
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    left: 12px;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 50%;
+    box-sizing: content-box;
+    border: 10px solid #000;
+    box-shadow: 78px 0 0 -10px #fff, 78px 0 #000;
+    animation: wheelSk 0.75s ease-in infinite alternate;
+  }
+  
+  .loader:before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 0px;
+    height: 70px;
+    width: 70px;
+    background-image: linear-gradient(#fff 45px, transparent 0),
+      linear-gradient(#fff 45px, transparent 0),
+      linear-gradient(#fff 45px, transparent 0);
+    background-repeat: no-repeat;
+    background-size: 30px 4px;
+    background-position: 0px 11px, 8px 35px, 0px 60px;
+    animation: lineDropping 0.75s linear infinite;
+  }
+  
+  @keyframes wheelSk {
+    0%, 50%, 100% { transform: translatey(0) }
+    30%, 90% { transform: translatey(-3px) }
+  }
+  
+  @keyframes lineDropping {
+    0% {
+      background-position: 100px 11px, 115px 35px, 105px 60px;
+      opacity: 1;
+    }
+    50% { background-position: 0px 11px, 20px 35px, 5px 60px }
+    60% { background-position: -30px 11px, 0px 35px, -10px 60px }
+    75%, 100% {
+      background-position: -30px 11px, -30px 35px, -30px 60px;
+      opacity: 0;
+    }
+  }
+  /* eyes */
+  
+  .eyes{
+    position: relative;
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background: #fff;
+    border: 8px solid #0277bd;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  .eyes::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -50%;
+    width: 100%;
+    height: 100%;
+    background: #4fc3f7 ;
+    z-index: 5;
+    border-bottom: 8px solid #131a1d;
+    box-sizing: border-box;
+    animation: eyeShade 3s infinite;
+  }
+  .eyes::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+    width: 32px;
+    z-index: 2;
+    height: 32px;
+    background: #111;
+    border-radius: 50%;
+    animation: eyeMove 3s infinite;
+  }
+  @keyframes eyeShade {
+    0%   { transform: translateY(0)}
+    20%   { transform: translateY(5px)}
+    40% , 50%   { transform: translateY(-5px)}
+    60%   { transform: translateY( -8px)}
+    75%   { transform: translateY( 5px)}
+    100%   { transform: translateY(10px)}
+  }
+  @keyframes eyeMove {
+    0%   { transform: translate(0 , 0)}
+    20%   { transform: translate(0px , 5px)}
+    40% , 50%   { transform: translate(0px , -5px)}
+    60%   { transform: translate(-10px , -5px)}
+    75%   { transform: translate(-20px , 5px)}
+    100%   { transform: translate(0 , 10px)}
+  }
+      
